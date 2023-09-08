@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+/**
+ * main - Prints all possible combinations of two two-digit numbers.
+ *
+ * Description: The numbers range from 0 to 99, printed as two digits.
+ * Combinations are separated by a comma and a space.
+ * Combinations are printed in ascending order.
+ * 00 01 and 01 00 are considered the same combination.
+ * Uses putchar function with a maximum of eight putchar calls.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     int num1, num2;
@@ -32,4 +43,3 @@ int main(void)
 
     return (0);
 }
-
