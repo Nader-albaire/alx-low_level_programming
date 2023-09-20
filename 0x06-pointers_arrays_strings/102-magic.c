@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * Description: This function is the entry point of the program. It initializes
+ * variables and demonstrates indirect modification of an integer array element
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
